@@ -1,0 +1,161 @@
+.ourSolution {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
+.solutionTitle {
+    font-size: 45px;
+}
+
+.solutionText {
+    width: 50vw;
+    text-align: center;
+    font-size: 22px;
+}
+
+.solutionImage {
+    position: absolute;
+    width: 250px;
+    top: 200px;
+    right: 200px;
+}
+
+.solutionImage1 {
+    position: absolute;
+    width: 250px;
+    top: 620px;
+    right: 500px;
+    transform: rotate(70deg);
+}
+
+.solutionBtn {
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 15vw;
+    height: 10vh;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+.solutionBtn:hover {
+    cursor: pointer;
+    background-color: rgb(51, 51, 51);
+}
+
+.solutionFormCont {
+    height: 100vh;
+    background-color: #6a6932;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.solutionForm {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 25vw;
+    height: 80vh;
+}
+
+.inputBox {
+    background-color: rgb(207, 207, 207);
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+}
+
+.inputBox:focus {
+    outline: 0;
+}
+
+.formLabel {
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    justify-content: space-evenly;
+}
+
+.formSelection {
+    width: 20vw;
+}
+
+.formArea {
+    background-color: rgb(207, 207, 207);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Open Sans';
+    resize: none;
+}
+
+.solutionImage2 {
+    position: absolute;
+    top: 1000px;
+    right: 100px;
+    width: 300px;
+}
+
+.solutionImage3 {
+    position: absolute;
+    top: 1550px;
+    right: 500px;
+}
+
+.solutionImage4 {
+    position: absolute;
+    top: 1300px;
+    left: 350px;
+    width: 300px;
+}
+
+.showCont {
+    height: 100vh;
+    background-color: #6a6932;
+}
+
+.showBtnCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.showBtn {
+    width: 32%;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    height: 75px;
+}
+
+.showBtn:hover {
+    cursor: pointer;
+}
+
+.cardCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card {
+    background-color: rgba(201, 201, 201, 0.925);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 20px;
+}

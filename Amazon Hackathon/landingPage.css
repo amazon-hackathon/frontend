@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+body{
+    font-size: monserrat;
+}
+.navbar-nav a{
+    font-size: 15px;
+    font-weight: 700;
+}
+.navbar-light .navbar-brand{
+    color: #219EBC;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color:#219EBC
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #219EBC;
+}
+
+/* carousel */
+.carousel-item{
+    height:100vh;
+    min-width: 300px;
+}
+.bg-1{
+    background-image: url(https://img.freepik.com/premium-photo/environmental-control-sorting-food-waste-environmental-packages_158392-157.jpg?w=1800);
+}
+.bg-2{
+    background-image: url(https://img.freepik.com/free-vector/growing-graph-icon-business-analytics-chart-symbol_53876-119568.jpg?w=1800&t=st=1660453053~exp=1660453653~hmac=a9f31b54dcb15336d82104de2458d523b8283ada3793830703a3b2cdb5e64e61);
+}
+.bg-3{
+    background-image: url(https://img.freepik.com/free-photo/closeup-shot-human-hand-holding-lamp_181624-20909.jpg?w=1800&t=st=1660452545~exp=1660453145~hmac=4f447ca37fd59d433f82c72c4bf60a37f285bdf81ba18fc630b84ab56ee64822);
+}
+.bg-1, .bg-2, .bg-3{
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index:z;
+}
+.carousel-caption h6{
+    margin-bottom: 50px;
+    font-size: 40px;
+    
+}
+.carousel-caption h1{
+    font-size: 85px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-top: px;
+    font-family: 'DynaPuff', cursive;
+
+}
+.carousel-caption h2{
+    font-size: 65px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: 'DynaPuff', cursive;
+
+}
+.carousel-caption h3{
+    font-size: 85px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: 'DynaPuff', cursive;
+
+}
+.carousel-caption h6{
+    top: 100px;
+    margin-bottom: 1px;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration:solid;
+    padding: 8px 20px;
+    display: inline-block;
+    color:aliceblue;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.carousel-caption p{
+    font-size: 25px;
+}
+.carousel-indicators{
+    bottom: 65px;    
+
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+.carousel-indicators button{
+    width: 100px !important;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-collapse{
+        background: #fff;
+    }
+    .carousel-caption{
+        display: flow-root;
+        top: 150px;
+        bottom: 150px;
+        left: 10%;
+        right: 10%;
+    }
+    .carousel-caption h1{
+        font-size: 80px;
+        margin-top: 10%;
+
+    }
+    .carousel-caption h2{
+        font-size: 80px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        
+    }
+
+    .carousel-caption h3{
+        font-size: 80px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+
+    }
+    .carousel-caption h6{
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+
+    .carousel-caption p{
+        font-size: 25px;
+        width: 100%;
+        top: 150px;
+        margin-bottom: 10px;
+        left: 10%;
+        right: 10%
+    
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+
+    }
+    .navbar-collapse{
+        background: #fff;
+    }
+    .carousel-caption{
+        display: flow-root;
+        bottom: 50px;
+    }
+    .carousel-caption h1{
+        font-size: 70px;
+        margin-top: 30%;
+        bottom: 50%;
+        
+    }
+    .carousel-caption h2{
+        font-size: 40px;
+
+    }
+    .carousel-caption h3{
+        font-size: 25px;
+        
+
+    }
+    .carousel-caption p{
+        font-size: 18px;
+        width: 100%;
+        margin-top: 20%;
+    }
+}
